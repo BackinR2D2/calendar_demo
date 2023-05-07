@@ -1,0 +1,45 @@
+.calendarWrapper {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendarTitle {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 12px;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.calendarBody {
+    text-align: center;
+    overflow-x: auto;
+}
+
+.calendar {
+    min-width: 14em;
+    padding: 20px;
+}
+
+.event {
+    transition: opacity 0.5s ease;
+    background-color: #C7D1CB !important;
+}
+
+.event:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.modal-dialog-centered {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100% - var(--bs-modal-margin) * 2);
+}
+
+.modal-content {
+    width: 20em;
+}
